@@ -25,6 +25,7 @@ const Task = (props) => {
             <label>{props.time}</label>
           </div>
           <div className="col-6 text-right">
+            
             <button
               className="btn btn-danger"
               onClick={DeleteTaskHandler}
